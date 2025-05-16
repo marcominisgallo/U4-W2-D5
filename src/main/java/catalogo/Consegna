@@ -1,0 +1,26 @@
+Creare un'applicazione Maven che contenga le classi necessarie a gestire un catalogo
+bibliotecario. Il catalogo è formato da elementi che possono essere Libri o Riviste.
+Sia Libri che riviste hanno i seguenti attributi:
+- Codice ISBN (codice univoco)
+- Titolo
+- Anno pubblicazione
+- Numero pagine
+I libri hanno inoltre:
+- Autore
+- Genere
+Le riviste hanno:
+- Periodicità [SETTIMANALE, MENSILE, SEMESTRALE]
+
+Creare una classe Archivio che implementi i seguenti metodi:
+  - Aggiunta di un elemento (non deve essere già stato inserito un altro elemento con lo stesso ISBN)
+  - Ricerca per ISBN con lancio eccezione custom
+  - Rimozione di un elemento dato un codice ISBN
+  - Ricerca per anno pubblicazione
+  - Ricerca per autore
+  - Aggiornamento di un elemento esistente dato l'ISBN
+  - Statistiche del catalogo: il metodo deve stampare numero totale di libri presenti, numero
+  totale di riviste presenti, elemento con maggior numero di pagine, media delle pagine di tutti gli
+  elementi
+  L'utente tramite Scanner deve poter accedere a tutte le operazioni.
+  Per l'implementazione degli algoritmi si impieghino i Java Streams e le Lambda expression.
+  Gestire tutte le possibili cause di eccezione.
