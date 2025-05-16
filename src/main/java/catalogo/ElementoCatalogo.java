@@ -1,3 +1,5 @@
+package catalogo;
+
 public abstract class ElementoCatalogo {
     private String isbn;
     private String titolo;

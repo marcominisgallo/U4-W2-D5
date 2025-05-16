@@ -1,3 +1,5 @@
+package catalogo;
+
 public class Libro extends ElementoCatalogo {
     private String autore;
     private String genere;
