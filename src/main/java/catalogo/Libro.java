@@ -10,7 +10,7 @@ public class Libro extends ElementoCatalogo {
         this.genere = genere;
     }
 
-    // Getter e setter
+
     public String getAutore() { return autore; }
     public String getGenere() { return genere; }
 }
